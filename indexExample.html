@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PulpoJaguar Wisdom</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #1a202c;
+            color: #cbd5e0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .gif-container {
+            width: 300px;
+            height: 300px;
+            overflow: hidden;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .gif-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .form-container input {
+            width: 300px;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #718096;
+            border-radius: 5px;
+            background-color: #2d3748;
+            color: #cbd5e0;
+        }
+
+        .ask-btn {
+            padding: 10px;
+            background-color: #4a5568;
+            color: #cbd5e0;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="gif-container">
+            <!-- Replace the source with your mystical gif -->
+            <img src="pulpoJaguar.gif" alt="Mystical Gif">
+        </div>
+        <div class="form-container">
+            <input type="email" placeholder="Enter your email">
+            <button class="ask-btn">Ask PulpoJaguar</button>
+        </div>
+    </div>
+</body>
+</html>
